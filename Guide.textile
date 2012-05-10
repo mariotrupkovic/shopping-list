@@ -6,7 +6,7 @@ h2. Setup
 
 h3. Download and install
 
-# Sencha Touch - http://www.sencha.com/products/touch/download/2.0.0/
+# Sencha Touch - http://www.sencha.com/products/touch/download/2.0.1/
 # Sencha SDK - http://www.sencha.com/products/sdk-tools/download
 
 h3. Localhosts
@@ -37,7 +37,7 @@ h2. Add List View
 
 h2. add item model
 
-# sencha generate model --name Item --fields=id:int,name,count,unit,done:boolean
+# sencha generate model --name Item --fields=name,count,unit,done:boolean
 # add default value for done field
 # add proxy
 
