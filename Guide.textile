@@ -1,0 +1,110 @@
+h1. Shopping List Trainings Sencha Touch App
+
+This App is to demonstrate the development of an Sencha Touch mobile web app.
+
+h2. Setup
+
+h3. Download and install
+
+# Sencha Touch - http://www.sencha.com/products/touch/download/2.0.0/
+# Sencha SDK - http://www.sencha.com/products/sdk-tools/download
+
+h3. Localhosts
+
+* DEV
+* Test
+* Production
+
+example:
+* sl2.local
+* sl2-test.local
+* sl2-pro.local
+
+h2. Kickstart the app
+
+Sencha Command Guide: http://docs.sencha.com/touch/2-0/#!/guide/command
+# Go in Folder "sencha-touch-2.x.x-gpl"
+# sencha app create Sl ../../sl2
+# cd ../../sl2
+
+Take a look to the folder structure
+
+h2. Add List View
+
+# add view/item/List.js
+# app.js change create view
+# app.js change views config
+
+h2. add item model
+
+# sencha generate model --name Item --fields=id:int,name,count,unit,done:boolean
+# add default value for done field
+# add proxy
+
+h2. add store
+
+# add store/Items.js
+# app.js add store config
+
+h2. add controller
+
+# sencha generate controller --name=Items
+# move view, store and model config to controller
+
+h2. add Add view
+
+# add view/item/Add.js
+# add config in controller
+# outsource form part
+
+h2. add button
+
+# add button in List.js
+# add refs, control and functions in Controller
+# add item functions in controller (addItem, editItem, deleteItem)
+# implement addItem function in controller
+
+h2. Unit
+
+# add Unit Model
+# add Units Store
+# add unit(s) in controller
+
+h2. Theming
+
+# compass watch sass folder
+# add scss
+# change loader color in index.html
+
+h2. item tab
+
+# add listener
+# add onItemTabAction function
+# add checkItem funtion
+
+h2. edit view
+
+# create edit view
+# add in controller
+# add showEditView
+# implement editItem
+
+h2. delete item
+
+# add delete button in edit view
+# implement delete function in controller
+
+h2. build testing
+
+# sencha app build testing ../sl2-test/
+
+
+h2. build production
+
+# sencha app build production ../sl2-pro/
+
+h2. build native
+
+# sencha app build native
+
+
