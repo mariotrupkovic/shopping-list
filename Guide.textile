@@ -75,6 +75,7 @@ h2. Theming
 # compass watch sass folder
 # add scss
 # change loader color in index.html
+# add font in app.json & scss
 
 h2. item tab
 

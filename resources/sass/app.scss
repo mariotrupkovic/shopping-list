@@ -26,10 +26,21 @@ $list-active-color:  #dcdcdc;
 @include sencha-msgbox;
 
 // Your custom code goes here...
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
 
 .detail,
 .emptytext {
 	padding: 10px;
+}
+
+.x-list-emptytext {
+	padding: 10px;
+}
+
+.x-toolbar-dark .x-title {
+	color: #fff;
 }
 
 .count {

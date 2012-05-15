@@ -44,6 +44,9 @@
         {
             "path": "resources/css/app.css",
             "update": "delta"
+        },
+        {
+            "path": "http://fonts.googleapis.com/css?family=Ubuntu"
         }
     ],
 
