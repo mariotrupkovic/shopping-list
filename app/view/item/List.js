@@ -1,6 +1,7 @@
 Ext.define('Sl.view.item.List', {
 	extend: 'Ext.List',
 	alias: 'widget.itemlist',
+	
 	xtype: 'itemlist',
 	requires: ['Ext.TitleBar'],
 
